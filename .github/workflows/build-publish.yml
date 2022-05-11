@@ -33,18 +33,18 @@ jobs:
           python: 310
           platform: manylinux_x86_64
 
-        - os: macos-latest
-          python: 37
-          platform: macosx_x86_64
-        - os: macos-latest
-          python: 38
-          platform: macosx_x86_64
-        - os: macos-latest
-          python: 39
-          platform: macosx_x86_64
-        - os: macos-latest
-          python: 310
-          platform: macosx_x86_64
+        # - os: macos-latest
+        #   python: 37
+        #   platform: macosx_x86_64
+        # - os: macos-latest
+        #   python: 38
+        #   platform: macosx_x86_64
+        # - os: macos-latest
+        #   python: 39
+        #   platform: macosx_x86_64
+        # - os: macos-latest
+        #   python: 310
+        #   platform: macosx_x86_64
 
     steps:
     - uses: actions/checkout@v3
