@@ -66,7 +66,7 @@ jobs:
     - name: Build src
       run: |
         python -m pip install --upgrade pip
-        pip install wheel
+        pip install wheel skbuild
         python setup.py sdist
     - name: Store src
       uses: actions/upload-artifact@v2
