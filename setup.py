@@ -11,7 +11,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name='hanabi_learning_environment',
-    version='0.0.3',
+    version='0.0.4',
     description='Learning environment for the game of hanabi.',
     long_description_content_type="text/markdown",
     long_description="Learning environment for the game of hanabi.",
