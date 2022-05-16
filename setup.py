@@ -10,10 +10,12 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name='jjshoots_test_hanabi',
-    version='0.0.1',
+    name='hanabi_learning_environment',
+    version='0.0.3',
     description='Learning environment for the game of hanabi.',
-    author='taijunjet@hotmail.com',
+    long_description_content_type="text/markdown",
+    long_description="Learning environment for the game of hanabi.",
+    author='deepmind/hanabi-learning-environment',
     packages=['hanabi_learning_environment', 'hanabi_learning_environment.agents'],
     install_requires=['cffi']
     license="MIT",
